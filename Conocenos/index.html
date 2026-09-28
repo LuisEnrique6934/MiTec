@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conócenos | TecNM Campus Zacatecas Norte</title>
+    <meta name="description" content="Conoce la historia, misión, visión y valores del Instituto Tecnológico Superior Zacatecas Norte.">
+    
+    <!-- Tipografía Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Iconos Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="..css/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="main-header">
+        <div class="container header-content">
+            <a href="#" class="logo">
+                <div class="logo-icon">ITSZN</div>
+                <div class="logo-text">
+                    <span class="logo-title">TecNM</span>
+                    <span class="logo-subtitle">Campus Zacatecas Norte</span>
+                </div>
+            </a>
+            
+            <button class="mobile-menu-btn" aria-label="Abrir menú" aria-expanded="false">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Oferta educativa</a></li>
+                    <li><a href="#intro" class="active">Conócenos</a></li>
+                    <li><a href="#">Aspirantes</a></li>
+                    <li><a href="#ubicacion">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-text animate-on-scroll">
+                    <span class="badge">Instituto Tecnológico Superior Zacatecas Norte</span>
+                    <h1>Conócenos</h1>
+                    <p class="hero-subtitle">Una institución comprometida con la educación superior tecnológica y el desarrollo de la región norte de Zacatecas.</p>
+                    <div class="hero-buttons">
+                        <a href="#filosofia" class="btn btn-primary">Conoce nuestra filosofía</a>
+                        <a href="#ubicacion" class="btn btn-outline"><i data-lucide="map-pin" class="icon-sm"></i> Ver ubicación</a>
+                    </div>
+                </div>
+                <div class="hero-visual animate-on-scroll">
+                    <div class="campus-placeholder">
+                        <img 
+                            src="campus.png" 
+                            alt="Vista aérea del campus del Instituto Tecnológico Superior Zacatecas Norte en Río Grande, Zacatecas" 
+                            class="campus-image"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                        >
+                        <div class="placeholder-fallback" style="display: none;">
+                            <div class="placeholder-content">
+                                <p>Aquí está la imagen del campus</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="decorative-blob"></div>
+                </div>
+            </div>
+            <a href="#intro" class="scroll-indicator" aria-label="Desplazarse hacia abajo">
+                <i data-lucide="chevron-down"></i>
+            </a>
+        </section>
+
+        <!-- Introducción Institucional -->
+        <section id="intro" class="section bg-white">
+            <div class="container">
+                <div class="section-header text-center animate-on-scroll">
+                    <h2>Una institución que transforma conocimiento en desarrollo</h2>
+                    <p>El Instituto Tecnológico Superior Zacatecas Norte es una institución pública de educación superior tecnológica ubicada en Río Grande, Zacatecas. Desde su creación, trabaja para ofrecer una educación de calidad que contribuya al desarrollo de su comunidad, de la región norte del estado y del país.</p>
+                </div>
+                <div class="grid-3">
+                    <div class="card animate-on-scroll">
+                        <div class="card-icon"><i data-lucide="graduation-cap"></i></div>
+                        <h3>Educación tecnológica</h3>
+                        <p>Formación profesional orientada a las necesidades sociales y productivas.</p>
+                    </div>
+                    <div class="card animate-on-scroll">
+                        <div class="card-icon"><i data-lucide="map"></i></div>
+                        <h3>Desarrollo regional</h3>
+                        <p>Contribución al crecimiento sostenible de la región norte de Zacatecas.</p>
+                    </div>
+                    <div class="card animate-on-scroll">
+                        <div class="card-icon"><i data-lucide="users"></i></div>
+                        <h3>Comunidad educativa</h3>
+                        <p>Estudiantes, docentes, personal administrativo, directivo y familias trabajando en conjunto.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Historia -->
+        <section id="historia" class="section bg-alt">
+            <div class="container">
+                <div class="section-header text-center animate-on-scroll">
+                    <h2>Nuestra historia</h2>
+                </div>
+                <div class="timeline animate-on-scroll">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"><i data-lucide="calendar"></i></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">1990</span>
+                            <h3>Fundación</h3>
+                            <p>Creación del Instituto Tecnológico Superior Zacatecas Norte mediante decreto del Ejecutivo del Estado.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"><i data-lucide="building-2"></i></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year current">Actualidad</span>
+                            <h3>Consolidación</h3>
+                            <p>Una comunidad educativa orientada a la educación superior tecnológica, la formación profesional y el desarrollo regional.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="history-quote animate-on-scroll">
+                    <i data-lucide="users" class="quote-icon"></i>
+                    <p>El ITSZN fue creado el 20 de noviembre de 1990. Desde entonces, su historia se ha construido con la participación de toda su comunidad educativa y con el propósito de contribuir al desarrollo de la región norte del estado de Zacatecas y del país.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filosofía (Misión y Visión) -->
+        <section id="filosofia" class="section bg-white">
+            <div class="container">
+                <div class="section-header text-center animate-on-scroll">
+                    <h2>Nuestra filosofía</h2>
+                </div>
+                <div class="grid-2">
+                    <div class="card mission-card animate-on-scroll">
+                        <i data-lucide="compass" class="mission-icon"></i>
+                        <h3>Misión</h3>
+                        <p class="quote-text"><span class="quote-mark">"</span>Ofrecer servicios de educación superior tecnológica de calidad, pertinente y equitativa que coadyuve a la conformación de una sociedad justa y humana, con una perspectiva de sustentabilidad y seguridad.<span class="quote-mark">"</span></p>
+                    </div>
+                    <div class="card vision-card animate-on-scroll">
+                        <i data-lucide="eye" class="vision-icon"></i>
+                        <h3>Visión</h3>
+                        <p class="quote-text"><span class="quote-mark">"</span>Ser uno de los pilares fundamentales del desarrollo sostenido, sustentable y equitativo de la nación.<span class="quote-mark">"</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Valores -->
+        <section id="valores" class="section bg-alt">
+            <div class="container">
+                <div class="section-header text-center animate-on-scroll">
+                    <h2>Valores que nos representan</h2>
+                </div>
+                <div class="grid-5">
+                    <div class="card value-card animate-on-scroll">
+                        <i data-lucide="users" class="value-icon"></i>
+                        <h4>Respeto</h4>
+                        <p>Actitud de tolerancia y aceptación de los demás para construir relaciones armoniosas.</p>
+                    </div>
+                    <div class="card value-card animate-on-scroll">
+                        <i data-lucide="heart-handshake" class="value-icon"></i>
+                        <h4>Fraternidad</h4>
+                        <p>Espíritu de solidaridad para alcanzar objetivos comunes y favorecer el desarrollo individual y colectivo.</p>
+                    </div>
+                    <div class="card value-card animate-on-scroll">
+                        <i data-lucide="target" class="value-icon"></i>
+                        <h4>Disciplina</h4>
+                        <p>Aceptación de normas que permiten mantener el orden y alcanzar metas personales y organizacionales.</p>
+                    </div>
+                    <div class="card value-card animate-on-scroll">
+                        <i data-lucide="award" class="value-icon"></i>
+                        <h4>Calidad académica</h4>
+                        <p>Mejora continua de los servicios educativos para desarrollar capacidades y buscar la excelencia.</p>
+                    </div>
+                    <div class="card value-card animate-on-scroll">
+                        <i data-lucide="hand-heart" class="value-icon"></i>
+                        <h4>Espíritu de servicio</h4>
+                        <p>Disposición positiva para realizar esfuerzos que proporcionen algo útil y benéfico.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Compromiso -->
+        <section id="compromiso" class="section bg-white">
+            <div class="container">
+                <div class="commitment-grid">
+                    <div class="commitment-text animate-on-scroll">
+                        <h2>Comprometidos con una formación integral</h2>
+                        <p>Formamos profesionistas competitivos, emprendedores y socialmente comprometidos, capaces de responder a los desafíos del mundo contemporáneo.</p>
+                        <p>Nuestro compromiso va más allá del aula: integramos principios de calidad, respeto al medio ambiente, seguridad y salud ocupacional en cada una de nuestras actividades académicas y administrativas.</p>
+                    </div>
+                    <div class="commitment-indicators animate-on-scroll">
+                        <div class="indicator">
+                            <i data-lucide="check-circle-2" class="ind-icon text-blue"></i>
+                            <span>Calidad educativa</span>
+                        </div>
+                        <div class="indicator">
+                            <i data-lucide="leaf" class="ind-icon text-green"></i>
+                            <span>Sustentabilidad</span>
+                        </div>
+                        <div class="indicator">
+                            <i data-lucide="lightbulb" class="ind-icon text-gold"></i>
+                            <span>Innovación</span>
+                        </div>
+                        <div class="indicator">
+                            <i data-lucide="heart" class="ind-icon text-institutional"></i>
+                            <span>Compromiso social</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ubicación y Contacto -->
+        <section id="ubicacion" class="section bg-alt">
+            <div class="container">
+                <div class="section-header text-center animate-on-scroll">
+                    <h2>Visítanos</h2>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info animate-on-scroll">
+                        <div class="info-card">
+                            <h3>Instituto Tecnológico Superior Zacatecas Norte</h3>
+                            <div class="info-item">
+                                <i data-lucide="map-pin"></i>
+                                <p>Carretera a González Ortega km 3, C.P. 98400, Apdo. Postal #178, Río Grande, Zacatecas.</p>
+                            </div>
+                            <div class="info-item">
+                                <i data-lucide="phone"></i>
+                                <p>(498) 488 30 02</p>
+                            </div>
+                            <div class="info-item">
+                                <i data-lucide="mail"></i>
+                                <p>contacto@itszn.edu.mx</p>
+                            </div>
+                            <div class="contact-actions">
+                                <a href="https://maps.google.com/?q=Carretera+a+González+Ortega+km+3,+Río+Grande,+Zacatecas" target="_blank" rel="noopener" class="btn btn-primary">Cómo llegar <i data-lucide="external-link" class="icon-sm"></i></a>
+                                <a href="mailto:contacto@itszn.edu.mx" class="btn btn-outline">Enviar correo</a>
+                                <a href="tel:+524984883002" class="btn btn-outline">Llamar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-placeholder animate-on-scroll">
+                        <div class="map-grid"></div>
+                        <div class="map-pin">
+                            <i data-lucide="map-pin"></i>
+                        </div>
+                        <div class="map-label">
+                            <i data-lucide="map-pin" class="icon-xs"></i>
+                            Río Grande, Zacatecas
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Final -->
+        <section id="cta" class="cta-section">
+            <div class="container text-center animate-on-scroll">
+                <h2>Forma parte de nuestra comunidad</h2>
+                <p>Conoce nuestra oferta educativa y descubre las oportunidades que el TecNM Campus Zacatecas Norte tiene para ti.</p>
+                <div class="hero-buttons justify-center">
+                    <a href="#" class="btn btn-secondary">Ver oferta educativa</a>
+                    <a href="#ubicacion" class="btn btn-white">Contactar al tecnológico</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo-footer">
+                        <div class="logo-icon">ITSZN</div>
+                        <span>TecNM Campus Zacatecas Norte</span>
+                    </div>
+                    <p>Formando profesionistas para el desarrollo de la región norte de Zacatecas y del país.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Oferta educativa</a></li>
+                        <li><a href="#intro">Conócenos</a></li>
+                        <li><a href="#ubicacion">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li>(498) 488 30 02</li>
+                        <li>contacto@itszn.edu.mx</li>
+                        <li class="address-small">Carretera a González Ortega km 3, C.P. 98400, Río Grande, Zacatecas.</li>
+                    </ul>
+                </div>
+                <div class="footer-legal">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Aviso de privacidad</a></li>
+                        <li><a href="#">Términos de uso</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Instituto Tecnológico Superior Zacatecas Norte. Todos los derechos reservados.</p>
+                <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+                    Volver al inicio <i data-lucide="arrow-up" class="icon-xs"></i>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
